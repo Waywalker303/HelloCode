@@ -1,0 +1,15 @@
+D:\1a\05. IT\пакет разработчика\Занкомство с языками программирования\lesson\exsampl\bin\Debug\net6.0\exsampl.exe
+D:\1a\05. IT\пакет разработчика\Занкомство с языками программирования\lesson\exsampl\bin\Debug\net6.0\exsampl.deps.json
+D:\1a\05. IT\пакет разработчика\Занкомство с языками программирования\lesson\exsampl\bin\Debug\net6.0\exsampl.runtimeconfig.json
+D:\1a\05. IT\пакет разработчика\Занкомство с языками программирования\lesson\exsampl\bin\Debug\net6.0\exsampl.dll
+D:\1a\05. IT\пакет разработчика\Занкомство с языками программирования\lesson\exsampl\bin\Debug\net6.0\exsampl.pdb
+D:\1a\05. IT\пакет разработчика\Занкомство с языками программирования\lesson\exsampl\obj\Debug\net6.0\exsampl.csproj.AssemblyReference.cache
+D:\1a\05. IT\пакет разработчика\Занкомство с языками программирования\lesson\exsampl\obj\Debug\net6.0\exsampl.GeneratedMSBuildEditorConfig.editorconfig
+D:\1a\05. IT\пакет разработчика\Занкомство с языками программирования\lesson\exsampl\obj\Debug\net6.0\exsampl.AssemblyInfoInputs.cache
+D:\1a\05. IT\пакет разработчика\Занкомство с языками программирования\lesson\exsampl\obj\Debug\net6.0\exsampl.AssemblyInfo.cs
+D:\1a\05. IT\пакет разработчика\Занкомство с языками программирования\lesson\exsampl\obj\Debug\net6.0\exsampl.csproj.CoreCompileInputs.cache
+D:\1a\05. IT\пакет разработчика\Занкомство с языками программирования\lesson\exsampl\obj\Debug\net6.0\exsampl.dll
+D:\1a\05. IT\пакет разработчика\Занкомство с языками программирования\lesson\exsampl\obj\Debug\net6.0\refint\exsampl.dll
+D:\1a\05. IT\пакет разработчика\Занкомство с языками программирования\lesson\exsampl\obj\Debug\net6.0\exsampl.pdb
+D:\1a\05. IT\пакет разработчика\Занкомство с языками программирования\lesson\exsampl\obj\Debug\net6.0\exsampl.genruntimeconfig.cache
+D:\1a\05. IT\пакет разработчика\Занкомство с языками программирования\lesson\exsampl\obj\Debug\net6.0\ref\exsampl.dll
