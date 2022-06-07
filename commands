@@ -1,0 +1,15 @@
+/*
+dotnet new console - создание новой консоли
+dotnet run - запуск приложения
+
+Console.Write() - вывод в консоль в одну строку
+Console.WriteLine() - вывод в консоль в одну строку + в конце перейти на новую строку 
+Console.ReadLine() - считать строку из терминала пример: string username = Console.ReadLine();
+
+
+string - строка
+
+
+
+
+*/
