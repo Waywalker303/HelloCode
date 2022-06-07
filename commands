@@ -7,8 +7,14 @@ Console.WriteLine() - вывод в консоль в одну строку + в
 Console.ReadLine() - считать строку из терминала пример: string username = Console.ReadLine();
 
 
+int - целые числа 
+double - весчественные числа
 string - строка
+bool - true / false
+wq ??
 
+new Randome().Next(min, max) - новое случайное число в диапазоне от мин до мах
+[min,max-1] - максимальное на 1 меньше
 
 
 
