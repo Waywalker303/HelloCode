@@ -27,4 +27,13 @@ while - цикл
 count 
 count +=1; count++;
 
+|| - одно из условий
+&& - оба условия
+
+git push -u origin main  - отправить в репозиторий на гитхаб
+
+gut commit - a "commit" - выход :wq
+
+Math.Sqrt() - найти корень числа
+ 
 */
