@@ -13,7 +13,7 @@ string - строка
 bool - true / false
 wq ??
 
-new Randome().Next(min, max) - новое случайное число в диапазоне от мин до мах
+new Random().Next(min, max) - новое случайное число в диапазоне от мин до мах
 [min,max-1] - максимальное на 1 меньше
 
 .ToLower() - переводит все знаки в нижний регистр пример: (username.ToLower() == "маша")
@@ -36,4 +36,16 @@ gut commit - a "commit" - выход :wq
 
 Math.Sqrt() - найти корень числа
  
+
+
+
+Методы
+
+
+Math.Sqrt() // 
+String.ToLower() // 
+
+
+
+
 */
