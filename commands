@@ -39,11 +39,15 @@ Math.Sqrt() - найти корень числа
 
 
 
-Методы
+Методы C#
+/// - создание html документа для описания проекта
 
+.Math.Sqrt() // 
+.String.ToLower() // 
+.Split() //
+.ToArray //
+.Select() //
 
-Math.Sqrt() // 
-String.ToLower() // 
 
 
 

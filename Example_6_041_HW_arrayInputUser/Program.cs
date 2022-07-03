@@ -29,10 +29,10 @@ ArrayEven(array);
 
 void ArrayEven(int[] array)
 {
-int even = 1;
+int even = 0;
 for(int i = 0; i < array.Length; i++)
 {
-     if(array[i] >= even )
+     if(array[i] > even )
         {
         even++;
         }
