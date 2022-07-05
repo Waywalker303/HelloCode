@@ -1,57 +1,63 @@
-﻿// Задача 52: Задайте двумерный массив из целых чисел. Найдите среднее 
-//арифметическое элементов в каждом столбце.
-// Например, задан массив:
+﻿Console.Clear();
+Console.WriteLine($"Задача 54: Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.");
+Console.WriteLine($"\nВведите размер массива m x n и диапазон случайных значений:");
+int m = InputNumbers("Введите m: ");
+int n = InputNumbers("Введите n: ");
+int range = InputNumbers("Введите диапазон: от 1 до ");
 
+int[,] array = new int[m, n];
+CreateArray(array);
+WriteArray(array);
 
-int line = 4; int column = 4;
-int[,] array = new int[line, column];
+Console.WriteLine($"\nОтсортированный массив: ");
+OrderArrayLines(array);
+WriteArray(array);
 
-ArrayRandomEvenPrint(array);
-
-ArrayArithmeticMeanColumn(array);
-
-
-void ArrayArithmeticMeanColumn(int[,] array)
+void OrderArrayLines(int[,] array)
 {
-Console.WriteLine($"Cреднее арифметическое:");
-for (int i = 0; i < column; i++)
-{
-  double arithmeticMean = 0;
-  for (int j = 0; j < line; j++)
+  for (int i = 0; i < array.GetLength(0); i++)
   {
-    arithmeticMean += array[j, i];
-  }
-  arithmeticMean = arithmeticMean / line;
-  Console.WriteLine($"столбца № {i+1} = {arithmeticMean}");
-}
-}
-
-void ArrayRandomEvenPrint(int[,] array)
-{
-for (int i = 0; i < array.GetLength(0); i++)
-{
-    for(int j = 0; j < array.GetLength(1); j++)
+    for (int j = 0; j < array.GetLength(1); j++)
     {
-        array[i, j] = Convert.ToInt32(new Random().Next(2, 9));
-    }
-    
-}
-PrintArray(array);
-}
-
-void PrintArray(int[,] array)
-{
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        for(int j = 0; j < array.GetLength(1); j++)
+      for (int k = 0; k < array.GetLength(1) - 1; k++)
+      {
+        if (array[i, k] < array[i, k + 1])
         {
-            Console.Write(array[i, j] + " ");
+          int temp = array[i, k + 1];
+          array[i, k + 1] = array[i, k];
+          array[i, k] = temp;
         }
-        Console.WriteLine();
+      }
     }
+  }
 }
 
+int InputNumbers(string input)
+{
+  Console.Write(input);
+  int output = Convert.ToInt32(Console.ReadLine());
+  return output;
+}
 
+void CreateArray(int[,] array)
+{
+  for (int i = 0; i < array.GetLength(0); i++)
+  {
+    for (int j = 0; j < array.GetLength(1); j++)
+    {
+      array[i, j] = new Random().Next(range);
+    }
+  }
+}
 
-
-
+void WriteArray(int[,] array)
+{
+  for (int i = 0; i < array.GetLength(0); i++)
+  {
+    for (int j = 0; j < array.GetLength(1); j++)
+    {
+      Console.Write(array[i, j] + " ");
+    }
+    Console.WriteLine();
+  }
+}
